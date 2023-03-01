@@ -5,7 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: url(./images/background.jpg) no-repeat center;
+  background: url(./background.jpg) no-repeat center;
   font-size: 120%;
   background-size: cover;
 }
@@ -96,7 +96,7 @@ h1.temp {
 
 @media screen and (max-width: 480px) { 
   body{
-    background: url(./images/background.jpg) no-repeat center ;
+    background: url(./background.jpg) no-repeat center ;
     background-size: cover;
   }
 }
