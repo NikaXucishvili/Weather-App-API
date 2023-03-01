@@ -5,9 +5,9 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: url(./background.jpg) no-repeat;
+  background: url(./images/background.jpg) no-repeat center;
   font-size: 120%;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
@@ -91,4 +91,12 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
+}
+
+
+@media screen and (max-width: 480px) { 
+  body{
+    background: url(./images/background.jpg) no-repeat center ;
+    background-size: cover;
+  }
 }
